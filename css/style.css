@@ -1,0 +1,253 @@
+/* ===============ПОДКЛЮЧЕНИЯ=============== */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Comfortaa:wght@400;700&family=El+Messiri:wght@400;700&family=Kaisei+Decol&family=Pacifico&display=swap");
+
+/* ===============СКАЧЕННЫЕ ШРИФТЫ=============== */
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("../fonts/CircularStd-Medium.woff2") format("wodd2"),
+        url("../fonts/CircularStd-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2"), url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ===============WRAPPER=============== */
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* ===============INDEX=============== */
+
+index body {
+    padding: 50px 30px;
+}
+
+.header {
+    text-transform: uppercase;
+    text-align: right;
+    line-height: 2;
+    margin-bottom: 100px;
+}
+
+.author {
+    font-family: "Pacifico", cursive;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 90px 50px rgb(26, 176, 221), -20px 20px 80px 50px rgb(199, 31, 162),
+        20px -20px 100px 50px rgb(224, 165, 36), -20px -20px 70px 50px rgb(57, 218, 25),
+        inset 0 0 20px 10px rgb(54, 135, 189);
+}
+.avatar {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.name {
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.picture {
+    display: inline-block;
+    overflow: hidden;
+    outline: 10px double aquamarine;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+
+.nuke .picture {
+    border-radius: 62% 38% 46% 54% / 26% 69% 31% 74%;
+    box-shadow: 0 0 30px 20px seagreen;
+}
+.stove .picture {
+    border-radius: 17% 83% 17% 83% / 25% 40% 60% 75%;
+    box-shadow: 0 0 50px 20px indigo;
+}
+.teapot .picture {
+    border-radius: 49% 51% 55% 45% / 70% 21% 79% 30%;
+    box-shadow: 0 0 20px 20px palevioletred;
+}
+.tv .picture {
+    border-radius: 27% 73% 18% 82% / 76% 82% 18% 24%;
+    box-shadow: 0 0 40px 5px teal;
+}
+.conditioner .picture {
+    border-radius: 50% 50% 50% 50% / 63% 72% 28% 37%;
+    box-shadow: 0 0 10px 30px gold;
+}
+
+.heading {
+    font-family: "Comfortaa", cursive;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+    text-shadow: 0 0 5px rgb(12, 168, 173);
+    color: cornsilk;
+    box-shadow: inset 0 -20px 50px 20px darkblue;
+    border-radius: 30px;
+}
+
+h1.heading {
+    font-size: 50px;
+}
+
+h2.heading,
+.heading span {
+    font-size: 30px;
+}
+
+.heading span {
+    font-weight: 400;
+}
+
+.reply .correctly {
+    font-family: "Balsamiq Sans", cursive;
+}
+
+.reply {
+    font-family: "Kaisei Decol", serif;
+    margin-bottom: 50px;
+    border-top: 5px double rgb(179, 164, 29);
+    border-bottom: 5px double rgb(33, 151, 135);
+    outline: 5px dashed tomato;
+}
+
+.text {
+    font-family: "El Messiri", sans-serif;
+}
+
+.block {
+    margin-bottom: 200px;
+}
+
+.block img {
+    width: 300px;
+}
+
+.begining .text {
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid tomato;
+    opacity: 0.5;
+}
+
+.nuke .text {
+    text-transform: uppercase;
+    font-size: 20px;
+    border: 15px double darkcyan;
+    opacity: 0.3;
+}
+
+.stove .text {
+    text-transform: capitalize;
+    font-size: 24px;
+    text-decoration: underline;
+    line-height: 2;
+    border: 10px dotted dimgrey;
+    margin-bottom: 50px;
+    box-shadow: -10px -10px 10px 10px darkgreen;
+}
+
+.teapot .text {
+    text-transform: lowercase;
+    font-size: 15px;
+    line-height: 3;
+    border: 2px dashed darkorange;
+    opacity: 0.4;
+}
+
+.tv .text {
+    font-size: 25px;
+    border: 20px solid black;
+    visibility: hidden;
+}
+
+.conditioner .text {
+    border: 10px solid yellowgreen;
+    border-radius: 30px;
+    outline: 3px solid salmon;
+    margin-bottom: 10px;
+}
+
+.footer a {
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* ===============INDEX2=============== */
+
+.blok {
+    font-family: "Circular Std";
+    padding: 140px 14%;
+    color: #313131;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blok h1 {
+    font-size: 65px;
+    line-height: 1.26;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    font-size: 20px;
+    line-height: 1.25;
+    color: #5f5f5f;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 224px;
+}
+
+.slogan {
+    font-size: 34px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.description {
+    line-height: 1.56;
+    color: #5f5f5f;
+    max-width: 508px;
+    margin-bottom: 125px;
+}
+
+.name {
+    line-height: 1.3;
+    font-weight: 700;
+    opacity: 0.88;
+}
+
+.post {
+    line-height: 1.3;
+    color: #b8b8b8;
+    margin-bottom: 100px;
+}
